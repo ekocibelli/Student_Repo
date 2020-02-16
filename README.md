@@ -1,4 +1,5 @@
 FIRST DELIVERY: 
+
 You've been hired by Stevens Institute of Technology to create a data repository of courses, students, and instructors.  The system will be used to help students track their required courses, the courses they have successfully completed, their grades,  GPA, etc.  The system will also be used by faculty advisors to help students to create study plans.  We will continue to add new features to this solution over the coming weeks so you'll want to think carefully about a good design and implementation. Your assignment this week is to begin to build the framework for your project and summarize student and instructor data.  You'll need to download three ascii, tab separated,  data files:
   1. students.txt (available from Canvas): Provides information about each student
   2. instructors.txt (available from Canvas):Provides information about each instructor
@@ -15,6 +16,7 @@ You do NOT need to implement automated tests to catch all possible error conditi
 Your solution MAY print error messages and warnings to the user about inconsistent or bad data, e.g. a data file with the wrong number of fields or a grade for an unknown student or instructor.
 
 SECOND DELIVERY:
+
 This week you'll continue to add new features to data repository you created last week. One of the most popular features is knowing what classes have been completed when signing up for classes for next semester.  However, users point out that it would be nice if your system also reported the remaining required courses.
 Each major has a set of required courses that are required of all students.  Furthermore, a student must earn a grade of at least a 'C' for a course to count toward graduation.  (Valid grades include 'A', 'A-', 'B+', 'B', 'B-', 'C+', and 'C') Any student earning less than a 'C' must repeat the course until earning at least a 'C'.
 Along with a set of required courses that every student must complete successfully, each major defines a set of electives and each student must successfully at least one of the electives associated with that major.  Students may take more than one elective, but they must take at least one of the electives associated with their major.
@@ -23,6 +25,7 @@ You'll need to read the information about majors and use it to update your stude
 You should also include a new summary prettytable of majors including the name of the major, the required courses, and elective courses.
 
 THIRD DELIVERY: 
+
 Create a new SQLite database.
 Use DataGrip to open your new SQLite database and import the four files into your database as separate tables. The files have a header row with the column names and the fields are separated by tabs. 
 Run queries to answer the following questions.  
@@ -34,6 +37,7 @@ Show the names of students  who have grades for  'SSW 810'.
 Recreate the Instructor summary table from HW10, including the Instructor's CWID, name, department, course taught, and the number of students who took the course
 
 FOURTH DELIVERY:
+
 The Stevens community is very excited about the work you've been doing to gather information about students, classes, and instructors.  Your work is so popular that the community is asking for a website so everyone can see the results.
 Your assignment is build a new web page to display a summary of each Instructor with her CWID, Name, Department, Course, and the number of students in the course.
 Create a directory structure for your solution with a 'templates' subdirectory, and a base.html template.
